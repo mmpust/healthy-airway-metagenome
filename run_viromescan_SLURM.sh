@@ -28,7 +28,7 @@ out_dir=${fastq_in_1%_R1.fastq}_viromescan
 
 srun /mnt/sfb900nfs/groups/tuemmler/mariep/miniconda3/envs/viromescan/viromescan/viromescan.sh \
  -m /mnt/sfb900nfs/groups/tuemmler/mariep/miniconda3/envs/viromescan/ \
- -d my_phages_viruses \
+ -d customised_phages_viruses \
  -1 $fastq_in_1 \
  -2 $fastq_in_2 \
  -o $out_dir
